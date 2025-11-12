@@ -1,8 +1,8 @@
 export default {
   displayName: 'host-fe-app',
-  preset: './jest.preset.js',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/host-fe-app',
+  coverageDirectory: '../../coverage/host-fe-app',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
